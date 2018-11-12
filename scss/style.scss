@@ -1,0 +1,89 @@
+// Start with assigning color names to specific hex values.
+$white:  #fff !default;
+$black:  #000 !default;
+$orange: #f99840 !default;
+$green:  #06ab37 !default;
+$blue:   #0089c5 !default;
+$grey:   #222222 !default;
+
+
+.btn {
+  color: $white;
+  background: none;
+  border-radius: 1px;
+  border-width: 2px;
+}
+
+.btn.telegram {
+  border-color: $blue;
+}
+
+.btn.email {
+  border-color: $orange;
+}
+
+.btn.icq {
+  border-color: $green;
+}
+
+
+body {
+  background-color: $grey;
+}
+
+.top {
+  color: $white;
+  background-color: $green;
+  padding: 10px;
+}
+
+.middle {
+  color: $grey;
+  background-color: $orange;
+  padding: 10px;
+}
+
+.bottom {
+  color: $white;
+  background-color: $blue;
+  padding: 10px;
+}
+
+.table-bordered th, .table-bordered td {
+  border-color: $grey;
+}
+.shouts {
+  color: $white;
+}
+
+.center-border-3 {
+  border-left-width: 3px !important;
+  border-right-width: 3px !important;
+  border-color: $grey;
+}
+
+.top-border-3 {
+  border-width: 3px !important;
+  border-color: $green !important;  
+  background-color: $green;
+}
+
+.middle-border-3 {
+  border-width: 3px !important;
+  border-color: $orange !important;
+  background-color: $orange;
+}
+
+.bottom-border-3 {
+  border-width: 3px !important;
+  border-color: $blue !important;
+    background-color: $blue;
+}
+
+
+.circle-icon {
+  padding: 12px !important;
+  border-radius: 50% !important;
+  width: 68px !important;
+  height: 68px !important;
+}

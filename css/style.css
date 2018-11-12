@@ -1,0 +1,64 @@
+.btn {
+  color: #fff;
+  background: none;
+  border-radius: 1px;
+  border-width: 2px; }
+
+.btn.telegram {
+  border-color: #0089c5; }
+
+.btn.email {
+  border-color: #f99840; }
+
+.btn.icq {
+  border-color: #06ab37; }
+
+body {
+  background-color: #222222; }
+
+.top {
+  color: #fff;
+  background-color: #06ab37;
+  padding: 10px; }
+
+.middle {
+  color: #222222;
+  background-color: #f99840;
+  padding: 10px; }
+
+.bottom {
+  color: #fff;
+  background-color: #0089c5;
+  padding: 10px; }
+
+.table-bordered th, .table-bordered td {
+  border-color: #222222; }
+
+.shouts {
+  color: #fff; }
+
+.center-border-3 {
+  border-left-width: 3px !important;
+  border-right-width: 3px !important;
+  border-color: #222222; }
+
+.top-border-3 {
+  border-width: 3px !important;
+  border-color: #06ab37 !important;
+  background-color: #06ab37; }
+
+.middle-border-3 {
+  border-width: 3px !important;
+  border-color: #f99840 !important;
+  background-color: #f99840; }
+
+.bottom-border-3 {
+  border-width: 3px !important;
+  border-color: #0089c5 !important;
+  background-color: #0089c5; }
+
+.circle-icon {
+  padding: 12px !important;
+  border-radius: 50% !important;
+  width: 68px !important;
+  height: 68px !important; }
